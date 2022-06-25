@@ -10,66 +10,71 @@
 </head>
 
 <body>
-    <div class="body">
-        <div class="frame">
-            <div class="display">
-                <div id="scoreBox">Score: 0</div>
-                <div id="logo">Nokia</div>
-                <div id="hiscoreBox">HiScore: 0</div>
-                <div id="board" class="c"></div>
-            </div>
-            <div class="top_keys">
-                <div class="right_top_keys">
+    <div class="container">
 
-                    <div class="keys" id="rk1">---</div>
-                    <div class="keys" id="rk2">---</div>
+
+
+        <div class="body">
+            <div class="frame">
+                <div class="display">
+                    <div id="scoreBox">Score: 0</div>
+                    <div id="logo">Nokia</div>
+                    <div id="hiscoreBox">HiScore: 0</div>
+                    <div id="board" class="c"></div>
+                </div>
+                <div class="top_keys">
+                    <div class="right_top_keys">
+
+                        <div class="keys" id="rk1">---</div>
+                        <div class="keys" id="rk2">---</div>
+                    </div>
+
+
+                    <div class="top_center_keys">
+                        <div class="ctkeys" id="up" onclick="up()"></div>
+                        <div class="row">
+                            <div class="clkeys" id="left" onclick="left()"></div>
+                            <div class="ok">OK</div>
+                            <div class="crkeys" id="right" onclick="right()"></div>
+                        </div>
+
+                        <div class="cbkeys" id="down" onclick="down()"></div>
+
+                    </div>
+
+
+                    <div class="right_top_keys">
+                        <div class="keys" id="lk1">---</div>
+                        <div class="keys" id="lk2">---</div>
+                    </div>
                 </div>
 
 
-                <div class="top_center_keys">
-                    <div class="ctkeys" id="up" onclick="up()"></div>
-                    <div class="row">
-                        <div class="clkeys" id="left" onclick="left()"></div>
-                        <div class="ok">OK</div>
-                        <div class="crkeys" id="right" onclick="right()"></div>
+                <div class="bottom_keys">
+                    <div class="bk">
+                        <div class="row">
+                            <div class="keys">1</div>
+                            <div class="keys" onclick="up()">2</div>
+                            <div class="keys">3</div>
+                        </div>
+                        <div class="row">
+                            <div class="keys" onclick="left()">4</div>
+                            <div class="keys">5</div>
+                            <div class="keys" onclick="right()">6</div>
+                        </div>
+                        <div class="row">
+                            <div class="keys">7</div>
+                            <div class="keys" onclick="down()">8</div>
+                            <div class="keys">9</div>
+                        </div>
+                        <div class="row">
+                            <div class="keys">*</div>
+                            <div class="keys">0</div>
+                            <div class="keys">#</div>
+                        </div>
                     </div>
-
-                    <div class="cbkeys" id="down" onclick="down()"></div>
 
                 </div>
-
-
-                <div class="right_top_keys">
-                    <div class="keys" id="lk1">---</div>
-                    <div class="keys" id="lk2">---</div>
-                </div>
-            </div>
-
-
-            <div class="bottom_keys">
-                <div class="bk">
-                    <div class="row">
-                        <div class="keys">1</div>
-                        <div class="keys" onclick="up()">2</div>
-                        <div class="keys">3</div>
-                    </div>
-                    <div class="row">
-                        <div class="keys" onclick="left()">4</div>
-                        <div class="keys">5</div>
-                        <div class="keys" onclick="right()">6</div>
-                    </div>
-                    <div class="row">
-                        <div class="keys">7</div>
-                        <div class="keys" onclick="down()">8</div>
-                        <div class="keys">9</div>
-                    </div>
-                    <div class="row">
-                        <div class="keys">*</div>
-                        <div class="keys">0</div>
-                        <div class="keys">#</div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>

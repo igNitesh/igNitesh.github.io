@@ -225,3 +225,11 @@
     background-color: rgb(201, 195, 195);
 
 }
+.container{
+    height: 100%;
+    width: 100%;
+    padding-left: 38%;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid greenyellow; */
+}
