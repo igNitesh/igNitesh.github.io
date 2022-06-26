@@ -12,11 +12,11 @@
     display: flex;
     /* top: 10px; */
     height: 100vh;
-    width: 60vh;
+    width: 49vh;
     padding: 2px;
     /* border: 0.5px solid maroon; */
     background-color: rgb(14, 6, 0);
-    border-radius: 10px;
+    border-radius: 20px;
     /* justify-content: center; */
     /* text-align: center; */
 }
@@ -31,16 +31,16 @@
 } */
 
 .display {
-    height: 45vh;
-    width: 58vh;
+    height: 50vh;
+    width: 44vh;
     border: 1px solid black;
     background-color: rgb(231, 230, 228);
 }
 
 .top_keys {
     display: flex;
-    height: 18vh;
-    width: 58vh;
+    height: 16vh;
+    width: 44vh;
     /* border: 2px solid gray; */
     /* padding: 10px8; */
     justify-content: center;
@@ -51,14 +51,15 @@
 
 .bottom_keys {
     display: flex;
-    height: 36vh;
-    width: 58vh;
+    height: 33vh;
+    width: 44vh;
     /* border: 2px solid rgb(145, 5, 121); */
     /* border-radius: 3px; */
     /* padding: 10px; */
     background-color: rgb(201, 195, 195);
     justify-content: center;
     text-align: center;
+    border-radius: 5px;
     /* bottom: 5px; */
     /* margin-left: 5px; */
 }
@@ -87,7 +88,7 @@
     cursor: pointer;
     /* margin: 2px; */
     margin-left: 10px;
-    padding: 2px;
+    padding: 4px;
     height: 7px;
     width: 60px;
     border: 1px solid black;
@@ -100,7 +101,7 @@
     cursor: pointer;
     /* margin: 2px; */
     margin-left: 10px;
-    padding: 2px;
+    padding: 4px;
     height: 7px;
     width: 60px;
     border: 1px solid black;
@@ -112,7 +113,7 @@
 .clkeys {
     cursor: pointer;
     /* margin: 2px; */
-    padding: 2px;
+    padding: 4px;
     height: 50px;
     width: 7px;
     border: 1px solid black;
@@ -125,7 +126,7 @@
     cursor: pointer;
     /* margin: 2px; */
     /* margin-left: 20px; */
-    padding: 2px;
+    padding: 4px;
     height: 50px;
     width: 7px;
     border: 1px solid black;
@@ -138,8 +139,8 @@
     cursor: pointer;
     margin: 1px;
     padding: 15px;
-    height: 18px;
-    width: 70px;
+    height: 29px;
+    width: 85px;
     border: 1px solid black;
     border-radius: 14px;
     background-color: rgb(24, 11, 11);
@@ -165,9 +166,9 @@
 
 #scoreBox {
     position: absolute;
-    top: 238px;
+    top: 45%;
     /* border: 1px solid yellowgreen; */
-    left: 10px;
+    left: 45px;
     /* right: 200px; */
     /* font-size: 39px; */
     /* font-weight: bold; */
@@ -177,6 +178,7 @@
     position: absolute;
     color: rgb(77, 78, 78);
     top: 2px;
+    left: 40%;
     /* border: 1px solid yellowgreen; */
     /* left: 250px; */
     text-align: center;
@@ -190,7 +192,7 @@
 #hiscoreBox {
     /* border: 1px solid gold; */
     position: absolute;
-    top: 238px;
+    top: 45%;
     left: 228px;
     /* right: 10px; */
     /* font-size: 39px; */
