@@ -12,7 +12,7 @@
     display: flex;
     /* top: 10px; */
     height: 100vh;
-    width: 100vh;
+    width: 60vh;
     padding: 2px;
     /* border: 0.5px solid maroon; */
     background-color: rgb(14, 6, 0);
@@ -32,7 +32,7 @@
 
 .display {
     height: 45vh;
-    width: 98vh;
+    width: 58vh;
     border: 1px solid black;
     background-color: rgb(231, 230, 228);
 }
@@ -40,7 +40,7 @@
 .top_keys {
     display: flex;
     height: 18vh;
-    width: 98vh;
+    width: 58vh;
     /* border: 2px solid gray; */
     /* padding: 10px8; */
     justify-content: center;
@@ -52,7 +52,7 @@
 .bottom_keys {
     display: flex;
     height: 36vh;
-    width: 98vh;
+    width: 58vh;
     /* border: 2px solid rgb(145, 5, 121); */
     /* border-radius: 3px; */
     /* padding: 10px; */
@@ -65,13 +65,12 @@
 
 .top_center_keys {
     background-color: rgb(201, 195, 195);
-    margin-top: 3px;
+    /* margin-top: 3px; */
     border: 5px solid rgb(10, 10, 10);
-    /* margin: 5px; */
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 5px;
+    /* margin-left: 5px; */
+    /* margin-right: 5px; */
     /* padding: 3px; */
-    border-radius: 5px;
     height: fit-content;
     border-radius: 10px;
 
@@ -114,7 +113,7 @@
     cursor: pointer;
     /* margin: 2px; */
     padding: 2px;
-    height: 60px;
+    height: 50px;
     width: 7px;
     border: 1px solid black;
     border-radius: 5px;
@@ -127,7 +126,7 @@
     /* margin: 2px; */
     /* margin-left: 20px; */
     padding: 2px;
-    height: 60px;
+    height: 50px;
     width: 7px;
     border: 1px solid black;
     border-radius: 5px;
@@ -139,8 +138,8 @@
     cursor: pointer;
     margin: 1px;
     padding: 15px;
-    height: 21px;
-    width: 160px;
+    height: 18px;
+    width: 70px;
     border: 1px solid black;
     border-radius: 14px;
     background-color: rgb(24, 11, 11);
@@ -150,10 +149,11 @@
 .ok {
     cursor: pointer;
     margin: 2px;
+    display: flex;
     /* margin-left: 10px; */
     padding: 20px;
-    height: 20px;
-    width: 20px;
+    height: 17px;
+    width: 17px;
     border: 1px solid black;
     /* background-color: rgb(201, 195, 195); */
     border-radius: 50px;
@@ -178,7 +178,9 @@
     color: rgb(77, 78, 78);
     top: 2px;
     /* border: 1px solid yellowgreen; */
-    left: 250px;
+    /* left: 250px; */
+    text-align: center;
+    
     /* right: 200px; */
     /* font-size: 39px; */
     font-weight: bold;
