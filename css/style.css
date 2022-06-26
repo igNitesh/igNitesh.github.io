@@ -9,56 +9,67 @@
 
 .body{
     position: absolute;
+    display: flex;
     /* top: 10px; */
     height: 100vh;
+    width: 100vh;
     padding: 2px;
-    border: 0.5px solid maroon;
+    /* border: 0.5px solid maroon; */
     background-color: rgb(14, 6, 0);
     border-radius: 10px;
+    /* justify-content: center; */
+    /* text-align: center; */
 }
 
-.frame {
+/* .frame {
     justify-content: center;
     align-items: center;
-    height: 600px;
-    width: 312px;
+    height: 98vh;
+    width: 98vh;
     border: 2px solid rgb(54, 1, 1);
     border-radius: 10px;
-}
+} */
 
 .display {
-    height: 45%;
-    width: 100%;
+    height: 45vh;
+    width: 98vh;
     border: 1px solid black;
     background-color: rgb(231, 230, 228);
 }
 
 .top_keys {
     display: flex;
-    height: 18%;
-    width: 100%;
+    height: 18vh;
+    width: 98vh;
     /* border: 2px solid gray; */
     /* padding: 10px8; */
     justify-content: center;
     text-align: center;
     background-color: rgb(201, 195, 195);
+    /* border-radius: 5px; */
 }
 
 .bottom_keys {
     display: flex;
-    height: 40%;
-    width: 100%;
+    height: 36vh;
+    width: 98vh;
     /* border: 2px solid rgb(145, 5, 121); */
+    /* border-radius: 3px; */
     /* padding: 10px; */
+    background-color: rgb(201, 195, 195);
     justify-content: center;
     text-align: center;
+    /* bottom: 5px; */
+    /* margin-left: 5px; */
 }
 
 .top_center_keys {
     background-color: rgb(201, 195, 195);
     margin-top: 3px;
     border: 5px solid rgb(10, 10, 10);
-    /* margin: 3px; */
+    /* margin: 5px; */
+    margin-left: 15px;
+    margin-right: 15px;
     /* padding: 3px; */
     border-radius: 5px;
     height: fit-content;
@@ -114,7 +125,7 @@
 .crkeys {
     cursor: pointer;
     /* margin: 2px; */
-    /* margin-left: 10px; */
+    /* margin-left: 20px; */
     padding: 2px;
     height: 60px;
     width: 7px;
@@ -127,11 +138,11 @@
 .keys {
     cursor: pointer;
     margin: 1px;
-    padding: 20px;
-    height: 10px;
-    width: 60px;
+    padding: 15px;
+    height: 21px;
+    width: 160px;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 14px;
     background-color: rgb(24, 11, 11);
     color: red;
 }
@@ -165,9 +176,9 @@
 #logo{
     position: absolute;
     color: rgb(77, 78, 78);
-    top: 255px;
+    top: 2px;
     /* border: 1px solid yellowgreen; */
-    left: 120px;
+    left: 250px;
     /* right: 200px; */
     /* font-size: 39px; */
     font-weight: bold;
@@ -191,8 +202,8 @@
     height: 40vmin; */
     width: 99%;
     height: 92%;
-
-    /* margin: 2px; */
+    margin-top: 17px;
+    margin-left: 1px;
     border: 2px solid rgb(248, 4, 4);
     border-radius: 3px;
     display: grid;
