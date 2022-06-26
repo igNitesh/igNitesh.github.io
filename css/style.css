@@ -52,14 +52,14 @@
 .bottom_keys {
     display: flex;
     height: 33vh;
-    width: 44vh;
+    width: 45vh;
     /* border: 2px solid rgb(145, 5, 121); */
     /* border-radius: 3px; */
     /* padding: 10px; */
     background-color: rgb(201, 195, 195);
     justify-content: center;
     text-align: center;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     /* bottom: 5px; */
     /* margin-left: 5px; */
 }
@@ -140,7 +140,7 @@
     margin: 1px;
     padding: 15px;
     height: 29px;
-    width: 85px;
+    width: 80px;
     border: 1px solid black;
     border-radius: 14px;
     background-color: rgb(24, 11, 11);
